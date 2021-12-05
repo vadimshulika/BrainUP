@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset = "UTF-8"/>
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <style>
+      .header{background-color: #2C2D4B;color: white; padding: 30px 200px;}
+      body{margin: 0; font-family: Arial, Helvetica, sans-serif; color: #2C2D4B;}
+      .text{font-size: 30px; display: inline-block;}
+      
+      .question__field{text-align: center; background-color: #E9E9EC; border-radius: 20px; padding: 1px 30px 15px 30px; margin: 10px 30%;}
+      .numQuestion{font-size: 30px; color: #2C2D4B;}
+      .fieldAnswer{font-size: 30px; padding: 0px 5px;}
+      .question__btn{font-size: 30px; background-color: #2C2D4B; color: white; border-radius: 20px; padding: 10px 15px; text-align: center; margin: 10px 0px;}
+      button:active, button:focus {outline: none;}button::-moz-focus-inner {border: 0;}
+      .center{text-align: center;}
+      </style>
+    </head>
+ 
+    <body>
+      <div class="header">
+        <div class="text"><strong>Осталось времени: </strong></div>
+        <div class="text" id="timer"></div>
+      </div>
+      <div class="question_sectoin">
+        <div class="question__field">
+          <p class="numQuestion"><strong>1 Вопрос</strong></p>
+          <p class="numQuestion">Что за трава, которую и слепые знают?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number1"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>2 Вопрос</strong></p>
+          <p class="numQuestion">Какая птица состоит из буквы и реки?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number2"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>3 Вопрос</strong></p>
+          <p class="numQuestion">Когда, смотря на цифру 2,мы говорим
+            «десять»?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number3"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>4 Вопрос</strong></p>
+          <p class="numQuestion">Когда сутки короче — летом или зимой?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number4"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>5 Вопрос</strong></p>
+          <p class="numQuestion">Что поднять с земли легко, но трудно кинуть
+            далеко.</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number5"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>6 Вопрос</strong></p>
+          <p class="numQuestion">Для кого нет такого отверстия, чтобы он
+            не пролез?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number6"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>7 Вопрос</strong></p>
+          <p class="numQuestion">Что вниз вершиной растет?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number7"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>8 Вопрос</strong></p>
+          <p class="numQuestion">Какого животного не было у Ноя в ковчеге?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number8"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>9 Вопрос</strong></p>
+          <p class="numQuestion">Полторы рыбы стоят полтора рубля. Сколько
+            стоят 5 рыб?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number9"/>
+        </div>
+        <div class="question__field">
+          <p class="numQuestion"><strong>10 Вопрос</strong></p>
+          <p class="numQuestion">Что больше — число 997 или цифра 998?</p>
+          <p class="numQuestion">Введите ответ:</p>
+          <input class="fieldAnswer" placeholder="Ответ" id="number10"/>
+        </div>
+        <div class="center">
+          <button class="question__btn" onclick="get_result(); location.href = 'index.html';"><strong>Ответить</strong></button>
+        </div>
+      </div>
+      <script src = "js/main.js" type = "text/javascript"></script>
+    </body>
+</html>
