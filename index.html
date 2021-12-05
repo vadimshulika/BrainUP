@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>BrainUP</title>
+        <style>
+        .header{background-color: #2C2D4B;color: white; padding: 30px 200px;}
+        body{margin: 0; font-family: Arial, Helvetica, sans-serif; color: #2C2D4B;}
+        .text{font-size: 30px;}
+        .title{color: #2C2D4B; text-align: center; font-size: 40px;}
+        .question{width: 80%; border-left: 5px solid #2C2D4B;display: inline-block;padding: 0px 100px; margin: 0px 50px;}
+        .question_title{font-size: 40px; color: #2C2D4B;}
+        .question_info{font-size: 30px; color:#2C2D4B;}
+        .answer{width: 65%; display: inline-block; margin: 0px; padding: 10px 10%;}
+        .answer_text{font-size: 25px;}
+        .startTest_page{background-color: #E9E9EC; padding: 20px 0px;}
+        .nwq{border-left: 0px;}
+        .title_form{text-align: center; font-size: 30px;}
+        .input_form{margin: 5px 40%; font-size: 30px; padding-left: 5px;}
+        .send_form__btn{background-color:#2C2D4B; color:white; border-radius: 50px; font-size: 30px; margin: 5px 40%; padding: 10px 17px; border: 0px;}
+        button:active, button:focus {outline: none;}button::-moz-focus-inner {border: 0;}
+        </style>
+    </head>
+ 
+    <body>
+      <div class="header">
+        <div class="text"><strong>Онлайн тренажер на</br>
+          развитие логики, памяти и внимания</strong></div>
+      </div>
+      <p class="title"><strong>Справочный материал</strong></p>
+      <div class="infoPage">
+        <div class="question">
+          <p class="question_title"><strong>Зачем развивать логику?</strong></p>
+          <p class="question_info">Развитая логика помогает выделять суть в потоке
+            информации, принимать взвешенные решения и чётко
+            формулировать свои мысли — эти способности
+            пригодятся не только в школе. Во времена высоких
+            технологий умение мыслить логически становится
+            не просто конкурентным преимуществом, а жизненно
+            необходимым навыком.
+            </p>
+        </div>
+        <div class="answer">
+          <p class="answer_text"><strong>Чтобы постоянно развиваться.</strong> Технологии прогрессируют с огромной скоростью и требует того же от человека. Не оказаться за бортом цивилизации сможет только живой и пластичный ум.</p>
+          <p class="answer_text"><strong>Чтобы правильно формулировать вопросы.</strong> Это важнейшее умение и для учёбы, и для жизни вообще. Чтобы получать быстрые и точные ответы, вопросы нужно уметь грамотно задавать. </p>
+          <p class="answer_text"><strong>Чтобы отличать правду ото лжи.</strong> Информационное пространство переполнено противоречивыми сведениями. Развитая логика поможет сопоставить факты, сравнить источники и не стать жертвой обмана. </p>
+          <p class="answer_text"><strong>Чтобы находить нестандартные решения.</strong>И дело даже не в том, что это ключевой навык для работы в самой высокооплачиваемой сфере — IT. Ни в одной профессии, подразумевающей интеллектуальный труд, не обойтись без изобретательности.</p>
+        </div>
+      </div>
+      <div class="startTest_page">
+        <p class="title">Начать тестирование</p>
+        <div class="question nwq">
+          <p class="question_title"><strong>Как начать тестирование?</strong></p>
+          <p class="question_info">На нашем сайте Вы можете воспользоваться
+            тренажером на развитие логики, памяти
+            и внимания. Сложность вопросов будет зависить
+            от Вашего возраста. В зависимости от сложности
+            изменяется время, данное на прохождение.
+            Для запуска тренажера, заполните форму справа.            
+            </p>
+        </div>
+        <div class="startTest_form">
+          <p class="title_form">Заополните форму, чтобы запустить тренажер:</p>
+          <input class="input_form" id="userName" placeholder="Имя"/>
+          <input class="input_form" id="age" placeholder="Возраст"/>
+          <input class="input_form" placeholder="Пол"/>
+          <button class="send_form__btn" id="button" onclick="location.href = 'question.html';"><strong>Запустить тренажер</strong></button>
+        </div>
+      </div>
+    </body>
+</html>
